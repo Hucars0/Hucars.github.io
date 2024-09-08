@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+thead {
+    background-color: purple;
+}
+
+table {
+    text-align: center;
+    border: purple solid 1px;
+}
+
+.one {
+
+    margin-left: 27%;
+}
+
+td {
+    border: pink solid 3px;
+}
+
+.special {
+    background-color: beige;
+}
+
+.two {
+    margin-left: 30%;
+}
