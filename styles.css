@@ -1,30 +1,171 @@
-body {
+.my {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.page {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.colors,
+.fonts,
+.text {
+    border: 2px solid lightslategray;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.barlow,
+.colors h2,
+.fonts h2,
+.roboto,
+.text h2,
+.text p {
+    margin-left: 10px;
+}
+
+.colors li {
+    display: inline-block;
+}
+
+.color1 {
+    background-color: #305C95;
+    color: white;
     text-align: center;
-    background-color: blanchedalmond;
+    line-height: 30px;
+    padding: 30px 144px;
+    margin-bottom: 20px;
+    margin-right: 3px;
 }
 
-thead {
-    background-color: purple;
-}
-
-table {
+.color2 {
+    background-color: #3E5F64;
+    color: white;
     text-align: center;
-    border: purple solid 1px;
+    line-height: 30px;
+    padding: 30px 108px;
+    margin-right: 3px;
 }
 
-.one {
-
-    margin-left: 27%;
+.color3 {
+    background-color: #E37C41;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px 100px;
 }
 
-td {
-    border: pink solid 3px;
+.color4 {
+    background-color: #704E6D;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px 78.5px;
 }
 
-.special {
-    background-color: beige;
+.poppins,
+.roboto {
+    display: inline-block;
 }
 
-.two {
-    margin-left: 30%;
+.poppins {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.robotoh3 {
+    margin-left: 0;
+    font-family: roboto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.roboto1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.poppinsh3 {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.poppins1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.barlowh3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.barlow1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barlow2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.barlow3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Barlow Condensed";
 }
